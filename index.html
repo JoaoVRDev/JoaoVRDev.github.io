@@ -3,14 +3,38 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfólio</title>
+    <style>
+h2{
+    color: darkred;
+    text-align: center;
+}
+body{
+    background-color: gold;
+    font-size: 22px;
+    font-family: monospace;
+}
+#back{ 
+    background-color: blue;
+    text-align: center;
+}
+#Org-Listas{
+    background-color: green;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+    </style>
+
   </head>
   <body>
-    <h1>
+    <h2>
         Portfólio Web
-    </h1>
-<img src="foto1.jpg" alt="Image" height="150" width="150">
+    </h2>
+<img src="foto1.jpg" alt="Image" height="150" width="150" >
 <p>
-    <H2>ÍNDICE</H2>
+    <H2>Índice</H2>
     <ul>
         <li>
             <a href="#Nome">Nome</a>
@@ -23,21 +47,21 @@
         </li>
     </ul>
 </p>
-<p id="Nome">
+<p id="Nome" >
     <h2> 
         Nome
     </h2>
-   <h4>  João Vitor Rodrigues de Souza
+   <h4 id="back">  João Vitor Rodrigues de Souza
    </h4>
 </p> 
 <p id="Descrição">
    <h2>Descrição</h2>
-   Um brasileiro que mora na cidade de Rio bonito, no estado do rio de janeiro, apaixonado
-   por programação!
+   <h4 id="back">Um brasileiro que mora na cidade de Rio bonito, no estado do rio de janeiro, apaixonado
+   por programação e um jogador de LOL bastante questionável! </h4>
 </p>
-<p id="Habilidades">
-   <h2>Habilidades</h2>
-   <ol> 
+<p>
+   <h2 id="Habilidades">Habilidades</h2>
+   <ol id="Org-Listas"> 
 <li><b>Comunicativo</b></li>
 <li>Organizado</li>
 <li>Pontual</li>
@@ -46,7 +70,7 @@
 </p>
 <p id="Indicações">
     <h2> Indicações</h2>
-    <ul>
+    <ul id="Org-Listas">
 <li>
     <a href="https://blog.betrybe.com/carreira/"   target="_blank" > TRYBE</a>
     </li>
